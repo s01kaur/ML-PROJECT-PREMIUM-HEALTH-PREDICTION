@@ -61,7 +61,7 @@ Target: Annual Premium Amount
 9. Streamlit : deployment and interactive prediction interface
 
 ## Installation
-Clone the repository: git clone <URL>
+Clone the repository: git clone https://github.com/s01kaur/ML-PROJECT-PREMIUM-HEALTH-PREDICTION.git
 cd ML-PROJECT-PREMIUM-HEALTH-PREDICTION
 
 Create and activate a virtual environment
