@@ -1,6 +1,8 @@
 # ML-PROJECT-PREMIUM-HEALTH-PREDICTION
 An end-to-end machine learning project for predicting annual health insurance premiums from customer demographic, financial, lifestyle, and medical attributes.
 
+<img width="957" height="692" alt="image" src="https://github.com/user-attachments/assets/f1edbe69-5f10-4a9c-b18d-350589317181" />
+
 LIVE DEMO : https://ml-pro-premium-health-prediction.streamlit.app/
 
 ## Introduction
