@@ -1,11 +1,14 @@
 import pandas as pd
 from joblib import load
+from pathlib import Path
 
-model_rest = load("artifacts/model_rest.joblib")
-model_young = load("artifacts/model_young.joblib")
+APP_DIR = Path(__file__).resolve().parent
+ARTIFACTS_DIR = APP_DIR / "artifacts"
 
-scaler_rest = load("artifacts/scaler_rest.joblib")
-scaler_young = load("artifacts/scaler_young.joblib")
+model_rest = load(ARTIFACTS_DIR/"model_rest.joblib")
+model_young = load(ARTIFACTS_DIR/"model_young.joblib")
+scaler_rest = load(ARTIFACTS_DIR/"scaler_rest.joblib")
+scaler_young = load(ARTIFACTS_DIR/"scaler_young.joblib")
 
 def calculate_normalized_risk(medical_history):
     risk_scores = {
