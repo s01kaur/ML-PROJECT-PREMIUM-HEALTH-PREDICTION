@@ -1,6 +1,8 @@
 # ML-PROJECT-PREMIUM-HEALTH-PREDICTION
 An end-to-end machine learning project for predicting annual health insurance premiums from customer demographic, financial, lifestyle, and medical attributes.
 
+LIVE DEMO : https://ml-pro-premium-health-prediction.streamlit.app/
+
 ## Introduction
 Health insurance premiums depend on multiple customer attributes such as age, income, dependant , lifestyle, BMI, employment, insurance plan, and medical history. A single model may not capture the behavior of different age groups equally well.
 This project therefore builds separate prediction pipelines for:
